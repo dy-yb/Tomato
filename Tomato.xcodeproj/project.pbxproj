@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48583EB311E5B624428CBB2A /* ContentView.swift */; };
+		0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */; };
+		7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */; };
+		8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */; };
+		A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */; };
+		ADE08A96C883ADB490C154F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA24C37961D4B963378AF8A5 /* Assets.xcassets */; };
+		F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C38306374A7318049A993 /* TomatoApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20569D7DA77D1E1AB980019C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA4A06E893C47D3FACF0AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578A53E2F84142EDB759AFF3;
+			remoteInfo = Tomato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E6C4C9E9CF97F62CF5AEBDE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687FACCD60E51D9CF7503C67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27B455F1B27055DF919B20FB /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4C38306374A7318049A993 /* TomatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoApp.swift; sourceTree = "<group>"; };
+		48583EB311E5B624428CBB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77F86469806935C5C502EAF7 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TomatoTests-Info.plist"; sourceTree = "<group>"; };
+		A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Tomato.swift"; sourceTree = "<group>"; };
+		AA24C37961D4B963378AF8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Tomato.swift"; sourceTree = "<group>"; };
+		BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTests.swift; sourceTree = "<group>"; };
+		DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F58DA948FECB82CA4E985115 /* Tomato-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tomato-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0937E1D24EEFEE81F04FBCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241AE174077DBD60CA8AAD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC20191D077F1090131B48B /* Tomato */ = {
+			isa = PBXGroup;
+			children = (
+				0E28AB6D6069BBF7614A83D5 /* Resources */,
+				850D210777D86229543D44E2 /* Sources */,
+				30D91F4D387555777D16A591 /* Tests */,
+			);
+			path = Tomato;
+			sourceTree = "<group>";
+		};
+		0E28AB6D6069BBF7614A83D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				177FBC1BA91234B28A130B79 /* Preview Content */,
+				AA24C37961D4B963378AF8A5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		177FBC1BA91234B28A130B79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30D91F4D387555777D16A591 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		347A67B69790197210097762 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				C7A0E95DDED8570C5E17E675 /* InfoPlists */,
+				76D3E059FF112704ECE09F68 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		347D2DFE15C781DAD6E0BDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B455F1B27055DF919B20FB /* Tomato.app */,
+				77F86469806935C5C502EAF7 /* TomatoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D3E059FF112704ECE09F68 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */,
+				A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		850D210777D86229543D44E2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				48583EB311E5B624428CBB2A /* ContentView.swift */,
+				2D4C38306374A7318049A993 /* TomatoApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		946AAF86C97E1B272D14B9B7 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				347A67B69790197210097762 /* Derived */,
+				0DC20191D077F1090131B48B /* Tomato */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		96E30FF292D3F674EAF0485B = {
+			isa = PBXGroup;
+			children = (
+				946AAF86C97E1B272D14B9B7 /* Project */,
+				347D2DFE15C781DAD6E0BDA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A0E95DDED8570C5E17E675 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				F58DA948FECB82CA4E985115 /* Tomato-Info.plist */,
+				9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578A53E2F84142EDB759AFF3 /* Tomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD83143D08A470322151C0D9 /* Build configuration list for PBXNativeTarget "Tomato" */;
+			buildPhases = (
+				45D3C4DA11CDDE74D93E2D3B /* Sources */,
+				050013EF7B73D9A92EF10E65 /* Resources */,
+				241AE174077DBD60CA8AAD93 /* Frameworks */,
+				687FACCD60E51D9CF7503C67 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tomato;
+			packageProductDependencies = (
+			);
+			productName = Tomato;
+			productReference = 27B455F1B27055DF919B20FB /* Tomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85040436F41B59F060561F9C /* TomatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E0FA2390BF8BACA5BD9E2B /* Build configuration list for PBXNativeTarget "TomatoTests" */;
+			buildPhases = (
+				469B9D223555070E605F4638 /* Sources */,
+				8D1E9385C94A694755767C01 /* Resources */,
+				0937E1D24EEFEE81F04FBCEA /* Frameworks */,
+				2E6C4C9E9CF97F62CF5AEBDE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C7BA31DC42A493FD14C705 /* PBXTargetDependency */,
+			);
+			name = TomatoTests;
+			packageProductDependencies = (
+			);
+			productName = TomatoTests;
+			productReference = 77F86469806935C5C502EAF7 /* TomatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA4A06E893C47D3FACF0AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					85040436F41B59F060561F9C = {
+						TestTargetID = 578A53E2F84142EDB759AFF3;
+					};
+				};
+			};
+			buildConfigurationList = 1CEC56500532D385A3CA1BB0 /* Build configuration list for PBXProject "Tomato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 96E30FF292D3F674EAF0485B;
+			productRefGroup = 347D2DFE15C781DAD6E0BDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578A53E2F84142EDB759AFF3 /* Tomato */,
+				85040436F41B59F060561F9C /* TomatoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050013EF7B73D9A92EF10E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE08A96C883ADB490C154F5 /* Assets.xcassets in Resources */,
+				0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1E9385C94A694755767C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D3C4DA11CDDE74D93E2D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */,
+				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
+				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
+				F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469B9D223555070E605F4638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C7BA31DC42A493FD14C705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tomato;
+			target = 578A53E2F84142EDB759AFF3 /* Tomato */;
+			targetProxy = 20569D7DA77D1E1AB980019C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		090B17B8193682E61BB9F8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Tomato-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Tomato;
+				PRODUCT_NAME = Tomato;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12D4D64AEB30FC2591D59EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/Tomato-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.Tomato;
+				PRODUCT_NAME = Tomato;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5461760B42894ECD4428D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A00E8F979A4EEFDFFA2968F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TomatoTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TomatoTests;
+				PRODUCT_NAME = TomatoTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomato";
+				TEST_TARGET_NAME = Tomato;
+			};
+			name = Release;
+		};
+		C6EB3C4D3D32A52A5CCDB42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TomatoTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TomatoTests;
+				PRODUCT_NAME = TomatoTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tomato";
+				TEST_TARGET_NAME = Tomato;
+			};
+			name = Debug;
+		};
+		DBBCED40954675A49649D42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CEC56500532D385A3CA1BB0 /* Build configuration list for PBXProject "Tomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5461760B42894ECD4428D44E /* Debug */,
+				DBBCED40954675A49649D42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E0FA2390BF8BACA5BD9E2B /* Build configuration list for PBXNativeTarget "TomatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EB3C4D3D32A52A5CCDB42A /* Debug */,
+				A00E8F979A4EEFDFFA2968F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD83143D08A470322151C0D9 /* Build configuration list for PBXNativeTarget "Tomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D4D64AEB30FC2591D59EEB /* Debug */,
+				090B17B8193682E61BB9F8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA4A06E893C47D3FACF0AEB /* Project object */;
+}
