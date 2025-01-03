@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-struct Letter: Identifiable {
-    var id = UUID()
-    var recipient: String
-}
-
 struct LetterListView: View {
     let list: [Letter]
 
@@ -22,17 +17,6 @@ struct LetterListView: View {
     var body: some View {
         return List(list) { item in
             LetterRow(letter: item)
-        }
-    }
-}
-
-struct LetterRow: View {
-    var letter: Letter
-
-    var body: some View {
-        HStack {
-            Text("To.").fontWeight(.bold)
-            Text("\(letter.recipient)")
         }
     }
 }
