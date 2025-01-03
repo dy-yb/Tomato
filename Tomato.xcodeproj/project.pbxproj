@@ -3,19 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48583EB311E5B624428CBB2A /* ContentView.swift */; };
 		0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */; };
-		611980A52D27BCD40064DB8B /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980A42D27BCD40064DB8B /* LetterListView.swift */; };
-		611980A82D27C0930064DB8B /* LetterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980A72D27C08A0064DB8B /* LetterRow.swift */; };
-		611980AA2D27C0A80064DB8B /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980A92D27C0A60064DB8B /* Letter.swift */; };
+		785B2DCD69355A5C48959099 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8232743134CEC53785E4794A /* Letter.swift */; };
 		7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */; };
 		8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */; };
+		96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39215B2DEE0BA2A754E3354F /* LetterListView.swift */; };
 		A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */; };
 		ADE08A96C883ADB490C154F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA24C37961D4B963378AF8A5 /* Assets.xcassets */; };
+		B8BAFE4057B9B9C5772EC673 /* LetterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD902B63AC1C77B6955837 /* LetterRow.swift */; };
 		F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C38306374A7318049A993 /* TomatoApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,11 +55,11 @@
 /* Begin PBXFileReference section */
 		27B455F1B27055DF919B20FB /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4C38306374A7318049A993 /* TomatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoApp.swift; sourceTree = "<group>"; };
+		39215B2DEE0BA2A754E3354F /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
 		48583EB311E5B624428CBB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		611980A42D27BCD40064DB8B /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
-		611980A72D27C08A0064DB8B /* LetterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRow.swift; sourceTree = "<group>"; };
-		611980A92D27C0A60064DB8B /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		63CD902B63AC1C77B6955837 /* LetterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRow.swift; sourceTree = "<group>"; };
 		77F86469806935C5C502EAF7 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8232743134CEC53785E4794A /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 		9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TomatoTests-Info.plist"; sourceTree = "<group>"; };
 		A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Tomato.swift"; sourceTree = "<group>"; };
 		AA24C37961D4B963378AF8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,16 +140,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		611980A62D27BCE10064DB8B /* LetterList */ = {
-			isa = PBXGroup;
-			children = (
-				611980A92D27C0A60064DB8B /* Letter.swift */,
-				611980A72D27C08A0064DB8B /* LetterRow.swift */,
-				611980A42D27BCD40064DB8B /* LetterListView.swift */,
-			);
-			path = LetterList;
-			sourceTree = "<group>";
-		};
 		76D3E059FF112704ECE09F68 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +152,7 @@
 		850D210777D86229543D44E2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				611980A62D27BCE10064DB8B /* LetterList */,
+				EE19A28B8695BEFBE486A603 /* LetterList */,
 				48583EB311E5B624428CBB2A /* ContentView.swift */,
 				2D4C38306374A7318049A993 /* TomatoApp.swift */,
 			);
@@ -193,6 +183,16 @@
 				9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		EE19A28B8695BEFBE486A603 /* LetterList */ = {
+			isa = PBXGroup;
+			children = (
+				8232743134CEC53785E4794A /* Letter.swift */,
+				39215B2DEE0BA2A754E3354F /* LetterListView.swift */,
+				63CD902B63AC1C77B6955837 /* LetterRow.swift */,
+			);
+			path = LetterList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,13 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611980AA2D27C0A80064DB8B /* Letter.swift in Sources */,
-				611980A82D27C0930064DB8B /* LetterRow.swift in Sources */,
 				7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */,
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
 				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
+				785B2DCD69355A5C48959099 /* Letter.swift in Sources */,
+				96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */,
+				B8BAFE4057B9B9C5772EC673 /* LetterRow.swift in Sources */,
 				F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */,
-				611980A52D27BCD40064DB8B /* LetterListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -476,7 +479,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
