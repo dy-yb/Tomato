@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48583EB311E5B624428CBB2A /* ContentView.swift */; };
 		0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */; };
+		611980A52D27BCD40064DB8B /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980A42D27BCD40064DB8B /* LetterListView.swift */; };
 		7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */; };
 		8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */; };
 		A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */; };
@@ -53,6 +54,7 @@
 		27B455F1B27055DF919B20FB /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4C38306374A7318049A993 /* TomatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoApp.swift; sourceTree = "<group>"; };
 		48583EB311E5B624428CBB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		611980A42D27BCD40064DB8B /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
 		77F86469806935C5C502EAF7 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TomatoTests-Info.plist"; sourceTree = "<group>"; };
 		A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Tomato.swift"; sourceTree = "<group>"; };
@@ -134,6 +136,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		611980A62D27BCE10064DB8B /* LetterList */ = {
+			isa = PBXGroup;
+			children = (
+				611980A42D27BCD40064DB8B /* LetterListView.swift */,
+			);
+			path = LetterList;
+			sourceTree = "<group>";
+		};
 		76D3E059FF112704ECE09F68 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 		850D210777D86229543D44E2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				611980A62D27BCE10064DB8B /* LetterList */,
 				48583EB311E5B624428CBB2A /* ContentView.swift */,
 				2D4C38306374A7318049A993 /* TomatoApp.swift */,
 			);
@@ -282,6 +293,7 @@
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
 				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
 				F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */,
+				611980A52D27BCD40064DB8B /* LetterListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,10 +358,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -459,10 +468,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
