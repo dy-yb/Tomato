@@ -15,8 +15,13 @@ struct LetterListView: View {
     }
 
     var body: some View {
-        return List(list) { item in
-            LetterRow(letter: item)
+        NavigationView {
+            List(list) { item in
+                LetterRow(letter: item)
+            }
+            .listStyle(.grouped)
+            .padding(.top, 20)
+            .navigationTitle("📮")
         }
     }
 }

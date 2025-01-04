@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24C101" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
-    <entity name="Letter" representedClassName="Letter" syncable="YES" codeGenerationType="class">
+    <entity name="LetterEntity" representedClassName="LetterEntity" syncable="YES" codeGenerationType="class">
         <attribute name="content" attributeType="String"/>
         <attribute name="creationData" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="recipient" attributeType="String"/>
