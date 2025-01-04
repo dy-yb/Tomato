@@ -12,6 +12,7 @@
 		611980AF2D27E5440064DB8B /* TomatoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 611980AD2D27E5440064DB8B /* TomatoModel.xcdatamodeld */; };
 		611980B22D27E7C60064DB8B /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980B12D27E7B90064DB8B /* PersistentContainer.swift */; };
 		611980B92D28F9B60064DB8B /* LetterWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980B82D28F9B60064DB8B /* LetterWriteView.swift */; };
+		611980BC2D28FFC00064DB8B /* LetterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980BB2D28FFC00064DB8B /* LetterDetailView.swift */; };
 		785B2DCD69355A5C48959099 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8232743134CEC53785E4794A /* Letter.swift */; };
 		7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */; };
 		8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */; };
@@ -63,6 +64,7 @@
 		611980AE2D27E5440064DB8B /* TomatoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TomatoModel.xcdatamodel; sourceTree = "<group>"; };
 		611980B12D27E7B90064DB8B /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
 		611980B82D28F9B60064DB8B /* LetterWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWriteView.swift; sourceTree = "<group>"; };
+		611980BB2D28FFC00064DB8B /* LetterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterDetailView.swift; sourceTree = "<group>"; };
 		63CD902B63AC1C77B6955837 /* LetterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRow.swift; sourceTree = "<group>"; };
 		77F86469806935C5C502EAF7 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8232743134CEC53785E4794A /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
@@ -163,6 +165,14 @@
 			path = LetterWrite;
 			sourceTree = "<group>";
 		};
+		611980BA2D28FF510064DB8B /* LetterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				611980BB2D28FFC00064DB8B /* LetterDetailView.swift */,
+			);
+			path = LetterDetail;
+			sourceTree = "<group>";
+		};
 		76D3E059FF112704ECE09F68 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 		850D210777D86229543D44E2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				611980BA2D28FF510064DB8B /* LetterDetail */,
 				611980B32D28F9810064DB8B /* LetterWrite */,
 				EE19A28B8695BEFBE486A603 /* LetterList */,
 				611980B02D27E6FB0064DB8B /* CoreData */,
@@ -322,6 +333,7 @@
 			files = (
 				611980AF2D27E5440064DB8B /* TomatoModel.xcdatamodeld in Sources */,
 				7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */,
+				611980BC2D28FFC00064DB8B /* LetterDetailView.swift in Sources */,
 				611980B22D27E7C60064DB8B /* PersistentContainer.swift in Sources */,
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
 				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
