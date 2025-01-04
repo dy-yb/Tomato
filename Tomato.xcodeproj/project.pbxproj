@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48583EB311E5B624428CBB2A /* ContentView.swift */; };
 		0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */; };
-		785B2DCD69355A5C48959099 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8232743134CEC53785E4794A /* Letter.swift */; };
 		611980AF2D27E5440064DB8B /* TomatoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 611980AD2D27E5440064DB8B /* TomatoModel.xcdatamodeld */; };
 		611980B22D27E7C60064DB8B /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980B12D27E7B90064DB8B /* PersistentContainer.swift */; };
+		611980B92D28F9B60064DB8B /* LetterWriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980B82D28F9B60064DB8B /* LetterWriteView.swift */; };
+		785B2DCD69355A5C48959099 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8232743134CEC53785E4794A /* Letter.swift */; };
 		7AAFE159A01C8561C67D3D07 /* TuistAssets+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */; };
 		8903F2BC673948D90AB5ACEF /* TomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */; };
 		96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39215B2DEE0BA2A754E3354F /* LetterListView.swift */; };
@@ -59,9 +60,10 @@
 		2D4C38306374A7318049A993 /* TomatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoApp.swift; sourceTree = "<group>"; };
 		39215B2DEE0BA2A754E3354F /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
 		48583EB311E5B624428CBB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		63CD902B63AC1C77B6955837 /* LetterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRow.swift; sourceTree = "<group>"; };
 		611980AE2D27E5440064DB8B /* TomatoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TomatoModel.xcdatamodel; sourceTree = "<group>"; };
 		611980B12D27E7B90064DB8B /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		611980B82D28F9B60064DB8B /* LetterWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWriteView.swift; sourceTree = "<group>"; };
+		63CD902B63AC1C77B6955837 /* LetterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRow.swift; sourceTree = "<group>"; };
 		77F86469806935C5C502EAF7 /* TomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8232743134CEC53785E4794A /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 		9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TomatoTests-Info.plist"; sourceTree = "<group>"; };
@@ -153,6 +155,14 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		611980B32D28F9810064DB8B /* LetterWrite */ = {
+			isa = PBXGroup;
+			children = (
+				611980B82D28F9B60064DB8B /* LetterWriteView.swift */,
+			);
+			path = LetterWrite;
+			sourceTree = "<group>";
+		};
 		76D3E059FF112704ECE09F68 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +175,7 @@
 		850D210777D86229543D44E2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				611980B32D28F9810064DB8B /* LetterWrite */,
 				EE19A28B8695BEFBE486A603 /* LetterList */,
 				611980B02D27E6FB0064DB8B /* CoreData */,
 				48583EB311E5B624428CBB2A /* ContentView.swift */,
@@ -315,6 +326,7 @@
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
 				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
 				785B2DCD69355A5C48959099 /* Letter.swift in Sources */,
+				611980B92D28F9B60064DB8B /* LetterWriteView.swift in Sources */,
 				96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */,
 				B8BAFE4057B9B9C5772EC673 /* LetterRow.swift in Sources */,
 				F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */,
@@ -346,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7YWVGV44MR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/Tomato-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -370,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7YWVGV44MR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/Tomato-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -382,10 +396,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -457,6 +468,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7YWVGV44MR;
 				INFOPLIST_FILE = "Derived/InfoPlists/TomatoTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -483,6 +495,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7YWVGV44MR;
 				INFOPLIST_FILE = "Derived/InfoPlists/TomatoTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,10 +508,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					DEBUG,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
