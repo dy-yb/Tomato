@@ -12,26 +12,29 @@ struct LetterDetailView: View {
     let message: String
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("To. \(recipient)")
-                .font(.title2)
-                .bold()
-                .padding(.horizontal)
+        NavigationView {
+            VStack(alignment: .leading, spacing: 20) {
+                Text("To. \(recipient)")
+                    .font(.title2)
+                    .bold()
+                    .padding(.horizontal)
 
-            Text(message)
-                .frame(
-                    maxWidth: .infinity,
-                    maxHeight: .infinity,
-                    alignment: .topLeading
-                )
-                .padding()
-                .background(Color(UIColor.systemGray6))
-                .cornerRadius(2)
-                .padding(.horizontal)
+                Text(message)
+                    .frame(
+                        maxWidth: .infinity,
+                        maxHeight: .infinity,
+                        alignment: .topLeading
+                    )
+                    .padding()
+                    .background(Color(UIColor.systemGray6))
+                    .cornerRadius(2)
+                    .padding(.horizontal)
 
-            Spacer()
+                Spacer()
+            }
+            .padding(.top, 20)
+            .navigationTitle("💌")
         }
-        .padding(.vertical, 20)
     }
 }
 

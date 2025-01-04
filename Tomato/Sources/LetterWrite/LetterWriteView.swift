@@ -40,8 +40,8 @@ struct LetterWriteView: View {
                         .padding(.horizontal)
                 }
             }
-            .padding(.vertical, 20)
-            .navigationTitle("💌")
+            .padding(.vertical)
+            .navigationTitle("📝")
         }
     }
 }
