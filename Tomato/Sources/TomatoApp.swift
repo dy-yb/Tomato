@@ -6,7 +6,7 @@ struct TomatoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LetterListView(list: [])
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

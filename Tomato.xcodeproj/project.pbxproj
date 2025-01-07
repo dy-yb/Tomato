@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48583EB311E5B624428CBB2A /* ContentView.swift */; };
 		0FEA11F1D0D0FA82761A4883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8A632B57163E9028D0B85E /* Preview Assets.xcassets */; };
 		611980AF2D27E5440064DB8B /* TomatoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 611980AD2D27E5440064DB8B /* TomatoModel.xcdatamodeld */; };
 		611980B22D27E7C60064DB8B /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611980B12D27E7B90064DB8B /* PersistentContainer.swift */; };
@@ -60,7 +59,6 @@
 		27B455F1B27055DF919B20FB /* Tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4C38306374A7318049A993 /* TomatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoApp.swift; sourceTree = "<group>"; };
 		39215B2DEE0BA2A754E3354F /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
-		48583EB311E5B624428CBB2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		611980AE2D27E5440064DB8B /* TomatoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TomatoModel.xcdatamodel; sourceTree = "<group>"; };
 		611980B12D27E7B90064DB8B /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
 		611980B82D28F9B60064DB8B /* LetterWriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterWriteView.swift; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 				611980B32D28F9810064DB8B /* LetterWrite */,
 				EE19A28B8695BEFBE486A603 /* LetterList */,
 				611980B02D27E6FB0064DB8B /* CoreData */,
-				48583EB311E5B624428CBB2A /* ContentView.swift */,
 				2D4C38306374A7318049A993 /* TomatoApp.swift */,
 			);
 			path = Sources;
@@ -336,7 +333,6 @@
 				611980BC2D28FFC00064DB8B /* LetterDetailView.swift in Sources */,
 				611980B22D27E7C60064DB8B /* PersistentContainer.swift in Sources */,
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
-				002AB5EC63D18233F4E61DA7 /* ContentView.swift in Sources */,
 				785B2DCD69355A5C48959099 /* Letter.swift in Sources */,
 				611980B92D28F9B60064DB8B /* LetterWriteView.swift in Sources */,
 				96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */,
