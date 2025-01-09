@@ -21,7 +21,7 @@
 		A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */; };
 		ADE08A96C883ADB490C154F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA24C37961D4B963378AF8A5 /* Assets.xcassets */; };
 		B8BAFE4057B9B9C5772EC673 /* LetterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CD902B63AC1C77B6955837 /* LetterRow.swift */; };
-		D96F7FB6EE99710BAAB8B1B4 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7729DA3E7FBB96FF859225B /* PersistentContainer.swift */; };
+		D96F7FB6EE99710BAAB8B1B4 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7729DA3E7FBB96FF859225B /* CoreDataController.swift */; };
 		F69FAB74FA3123066215240D /* TomatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C38306374A7318049A993 /* TomatoApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +71,7 @@
 		8286E75FF6694EDAF9C82C83 /* LetterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterDetailView.swift; sourceTree = "<group>"; };
 		9FF11FADB0059616A0CF034D /* TomatoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TomatoTests-Info.plist"; sourceTree = "<group>"; };
 		A0825C3F9A286A5DC738B231 /* TuistBundle+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Tomato.swift"; sourceTree = "<group>"; };
-		A7729DA3E7FBB96FF859225B /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		A7729DA3E7FBB96FF859225B /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 		AA24C37961D4B963378AF8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE889FF773D2AF9A08D9D39F /* TuistAssets+Tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Tomato.swift"; sourceTree = "<group>"; };
 		BC6BDDDCD3E95414BEDEE169 /* TomatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoTests.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				16D1779259B009F631C082A2 /* LetterEntity+CoreDataClass.swift */,
 				C4C2ECE74C8EE607DE750E43 /* LetterEntity+CoreDataProperties.swift */,
 				611980DE2D2F87E50064DB8B /* TomatoModel.xcdatamodeld */,
-				A7729DA3E7FBB96FF859225B /* PersistentContainer.swift */,
+				A7729DA3E7FBB96FF859225B /* CoreDataController.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 				A8275C890AA08046FA94D056 /* TuistBundle+Tomato.swift in Sources */,
 				1221BACFCC0D7D69ADFEE15F /* LetterEntity+CoreDataClass.swift in Sources */,
 				63772113E48DD923C6D6675D /* LetterEntity+CoreDataProperties.swift in Sources */,
-				D96F7FB6EE99710BAAB8B1B4 /* PersistentContainer.swift in Sources */,
+				D96F7FB6EE99710BAAB8B1B4 /* CoreDataController.swift in Sources */,
 				17C7C0B7CFA4F5BFD200E804 /* LetterDetailView.swift in Sources */,
 				785B2DCD69355A5C48959099 /* Letter.swift in Sources */,
 				96A7FF4956B279398DC24749 /* LetterListView.swift in Sources */,

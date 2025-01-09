@@ -2,11 +2,11 @@ import SwiftUI
 
 @main
 struct TomatoApp: App {
-    let persistenceController = PersistenceController()
+    @StateObject private var persistenceController = CoreDataController()
 
     var body: some Scene {
         WindowGroup {
-            LetterListView(list: [])
+            LetterListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

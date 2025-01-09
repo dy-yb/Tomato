@@ -6,18 +6,21 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct LetterListView: View {
-    let list: [Letter]
-
-    init(list: [Letter]) {
-        self.list = list
-    }
+    @Environment(\.managedObjectContext) var managedObjectContext
+    @FetchRequest(sortDescriptors: [SortDescriptor(\LetterEntity.creationDate, order: .forward)]) var letters: FetchedResults<LetterEntity>
 
     var body: some View {
         NavigationView {
-            List(list) { item in
-                LetterRow(letter: item)
+            List(letters) { item in
+                LetterRow(
+                    letter: Letter(
+                        recipient: item.recipient ?? "Someone",
+                        content: item.content ?? ""
+                    )
+                )
             }
             .listStyle(.grouped)
             .padding(.top, 20)
@@ -27,15 +30,5 @@ struct LetterListView: View {
 }
 
 #Preview("하나") {
-    LetterListView(list: [Letter(recipient: "daye")])
-}
-
-#Preview("여러개") {
-    LetterListView(
-        list: [
-            Letter(recipient: "Daye"),
-            Letter(recipient: "Quokka"),
-            Letter(recipient: "Milkey"),
-        ]
-    )
+    LetterListView()
 }
