@@ -8,6 +8,8 @@
 import Foundation
 
 struct Letter: Identifiable {
-    var id = UUID()
-    var recipient: String
+    let id = UUID()
+    let recipient: String
+    let content: String
+    let creationDate = Date()
 }
